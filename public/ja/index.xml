@@ -4,6 +4,5 @@
         <link>http://localhost:1313/Jovian/ja/</link>
         <description>Recent content on Jovian</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>ja</language>
-        <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/Jovian/ja/index.xml" rel="self" type="application/rss+xml" /></channel>
+        <language>ja</language><atom:link href="http://localhost:1313/Jovian/ja/index.xml" rel="self" type="application/rss+xml" /></channel>
 </rss>
