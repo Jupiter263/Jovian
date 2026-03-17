@@ -30,6 +30,7 @@ hasCJKLanguage = true
   [params.sidebar]
     emoji = "🪐"
     subtitle = "Jupiter's notes"
+    compact = false
 
   [params.article]
     toc = true
