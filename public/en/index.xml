@@ -4,7 +4,8 @@
         <link>http://localhost:1313/Jovian/en/</link>
         <description>Recent content on Jovian</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="http://localhost:1313/Jovian/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Tue, 17 Mar 2026 15:24:19 +0900</lastBuildDate><atom:link href="http://localhost:1313/Jovian/en/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Python_basic</title>
             <link>http://localhost:1313/Jovian/en/post/python_basic/</link>
             <pubDate>Tue, 17 Mar 2026 15:24:19 +0900</pubDate>
