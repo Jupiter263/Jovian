@@ -4,6 +4,20 @@ defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 title = "Jovian"
 hasCJKLanguage = true
+[languages]
+  [languages.zh-cn]
+    languageName = "中文"
+    title = "Jovian"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    title = "Jovian"
+    weight = 2
+  [languages.ja]
+    languageName = "日本語"
+    title = "Jovian"
+    weight = 3
+    hasCJKLanguage = true
 
 [permalinks]
   post = "/p/:slug/"
