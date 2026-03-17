@@ -1,6 +1,6 @@
 +++
 date = '2026-03-17T15:24:19+09:00'
-draft = true
+draft = false
 title = 'Python_basic'
 language = en
 +++
