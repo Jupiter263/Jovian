@@ -17,7 +17,6 @@ hasCJKLanguage = true
       rssFullContent = true
       [languages.zh-cn.params.sidebar]
         emoji = "🪐"
-        subtitle = "Jupiter's notes"
       [languages.zh-cn.params.article]
         toc = true
       [languages.zh-cn.params.widgets]
@@ -37,7 +36,6 @@ hasCJKLanguage = true
       rssFullContent = true
       [languages.en.params.sidebar]
         emoji = "🪐"
-        subtitle = "Jupiter's notes"
       [languages.en.params.article]
         toc = true
       [languages.en.params.widgets]
@@ -58,7 +56,6 @@ hasCJKLanguage = true
       rssFullContent = true
       [languages.ja.params.sidebar]
         emoji = "🪐"
-        subtitle = "Jupiter's notes"
       [languages.ja.params.article]
         toc = true
       [languages.ja.params.widgets]
