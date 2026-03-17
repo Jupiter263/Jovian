@@ -4,52 +4,68 @@ defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
 title = "Jovian"
 hasCJKLanguage = true
+
 [languages]
-[languages.zh-cn]
+  [languages.zh-cn]
     languageName = "中文"
     title = "Jovian"
     weight = 1
     contentDir = "content"
     [languages.zh-cn.params]
-        mainSections = ["post"]
+      mainSections = ["post"]
+      featuredImageField = "image"
+      rssFullContent = true
+      [languages.zh-cn.params.sidebar]
+        emoji = "🪐"
+        subtitle = "Jupiter's notes"
+      [languages.zh-cn.params.article]
+        toc = true
+      [languages.zh-cn.params.widgets]
+        [[languages.zh-cn.params.widgets.homepage]]
+          type = "archives"
+          [languages.zh-cn.params.widgets.homepage.params]
+            limit = 5
 
-[languages.en]
+  [languages.en]
     languageName = "English"
     title = "Jovian"
     weight = 2
     contentDir = "content/en"
     [languages.en.params]
-        mainSections = ["post"]
+      mainSections = ["post"]
+      featuredImageField = "image"
+      rssFullContent = true
+      [languages.en.params.sidebar]
+        emoji = "🪐"
+        subtitle = "Jupiter's notes"
+      [languages.en.params.article]
+        toc = true
+      [languages.en.params.widgets]
+        [[languages.en.params.widgets.homepage]]
+          type = "archives"
+          [languages.en.params.widgets.homepage.params]
+            limit = 5
 
-[languages.ja]
+  [languages.ja]
     languageName = "日本語"
     title = "Jovian"
     weight = 3
     contentDir = "content/ja"
     hasCJKLanguage = true
     [languages.ja.params]
-        mainSections = ["post"]
-
-[permalinks]
-    [languages.en.permalinks]
-    post = "/p/:slug/"
-
-    [languages.zh-cn.permalinks]
-    post = "/p/:slug/"
-
-    [languages.ja.permalinks]
-    post = "/p/:slug/"
-
-[params]
-  featuredImageField = "image"
-  rssFullContent = true
-
-  [params.sidebar]
-    emoji = "🪐"
-    subtitle = "Jupiter's notes"
-
-  [params.article]
-    toc = true
+      mainSections = ["post"]
+      featuredImageField = "image"
+      rssFullContent = true
+      [languages.ja.params.sidebar]
+        emoji = "🪐"
+        subtitle = "Jupiter's notes"
+      [languages.ja.params.article]
+        toc = true
+      [languages.ja.params.widgets]
+        [[languages.ja.params.widgets.homepage]]
+          type = "archives"
+          [languages.ja.params.widgets.homepage.params]
+            limit = 5
 
 [module]
   [[module.imports]]

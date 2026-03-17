@@ -2,59 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Jovian/en/</loc>
+    <loc>http://localhost:55561/Jovian/en/</loc>
     <lastmod>2026-03-17T15:24:19+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/"
+                href="http://localhost:55561/Jovian/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/"
+                href="http://localhost:55561/Jovian/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/"
+                href="http://localhost:55561/Jovian/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/p/python_basic/</loc>
+    <loc>http://localhost:55561/Jovian/en/post/python_basic/</loc>
     <lastmod>2026-03-17T15:24:19+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/categories/</loc>
+    <loc>http://localhost:55561/Jovian/en/page/archives/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/categories/"
+                href="http://localhost:55561/Jovian/zh-cn/page/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/categories/"
+                href="http://localhost:55561/Jovian/ja/page/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/categories/"
+                href="http://localhost:55561/Jovian/en/page/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/tags/</loc>
+    <loc>http://localhost:55561/Jovian/en/page/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/tags/"
+                href="http://localhost:55561/Jovian/zh-cn/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/tags/"
+                href="http://localhost:55561/Jovian/ja/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/tags/"
+                href="http://localhost:55561/Jovian/en/page/"
+                />
+  </url><url>
+    <loc>http://localhost:55561/Jovian/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:55561/Jovian/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:55561/Jovian/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:55561/Jovian/en/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:55561/Jovian/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:55561/Jovian/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:55561/Jovian/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:55561/Jovian/en/tags/"
                 />
   </url>
 </urlset>
