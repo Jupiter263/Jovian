@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/Jovian/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Jovian/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Section 1 print(&ldquo;Hellow world&rdquo;) message = &ldquo;Hellow world&rdquo; #source myenv/bin/activate print(message) name = &ldquo;hellow world&rdquo; print(name.title()) print(name.upper()) print(name.lower()) first_name = &ldquo;hellow&rdquo; last_name = &ldquo;world&rdquo; fullname=first_name+&quot;.&quot;+last_name print(fullname) real_name = &quot; hellow world &quot; print(real_name) print(real_name.strip())#remove spaces print(real_name.lstrip())#remove left space print(real_name.rstrip())#remove right space number=250 code = &ldquo;The code is &ldquo;+str(number) print(code) #Say hi to everyone! print(&ldquo;Hellow world!&quot;.upper()) print(&ldquo;Hellow world!&quot;.lower()) print(&ldquo;Hellow world!&quot;.title()) varible = &ldquo;Goodmorning&rdquo; old = varible #Store the previous value #cause the variable will be reassigned. varible = &ldquo;Goodevening&rdquo; #Assign a new value to the existing variable. print(varible + &quot; world!&rdquo;)\n">
+<title>Python_basic</title>
+
+
+<link rel="canonical" href="http://localhost:1313/Jovian/en/python_basic/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/Jovian/scss/style.min.389e156f5e9bb13df5a924cfa99dfb9c39f3e01e68d9e146cd65bdae963be145.css"><meta property='og:title' content="Python_basic">
+<meta property='og:description' content="Section 1 print(&ldquo;Hellow world&rdquo;) message = &ldquo;Hellow world&rdquo; #source myenv/bin/activate print(message) name = &ldquo;hellow world&rdquo; print(name.title()) print(name.upper()) print(name.lower()) first_name = &ldquo;hellow&rdquo; last_name = &ldquo;world&rdquo; fullname=first_name+&quot;.&quot;+last_name print(fullname) real_name = &quot; hellow world &quot; print(real_name) print(real_name.strip())#remove spaces print(real_name.lstrip())#remove left space print(real_name.rstrip())#remove right space number=250 code = &ldquo;The code is &ldquo;+str(number) print(code) #Say hi to everyone! print(&ldquo;Hellow world!&quot;.upper()) print(&ldquo;Hellow world!&quot;.lower()) print(&ldquo;Hellow world!&quot;.title()) varible = &ldquo;Goodmorning&rdquo; old = varible #Store the previous value #cause the variable will be reassigned. varible = &ldquo;Goodevening&rdquo; #Assign a new value to the existing variable. print(varible + &quot; world!&rdquo;)\n">
+<meta property='og:url' content='http://localhost:1313/Jovian/en/python_basic/'>
+<meta property='og:site_name' content='Jovian'>
+<meta property='og:type' content='article'><meta property='article:section' content='En' /><meta property='article:published_time' content='2026-03-17T15:24:19&#43;09:00'/><meta property='article:modified_time' content='2026-03-17T15:24:19&#43;09:00'/>
+<meta name="twitter:title" content="Python_basic">
+<meta name="twitter:description" content="Section 1 print(&ldquo;Hellow world&rdquo;) message = &ldquo;Hellow world&rdquo; #source myenv/bin/activate print(message) name = &ldquo;hellow world&rdquo; print(name.title()) print(name.upper()) print(name.lower()) first_name = &ldquo;hellow&rdquo; last_name = &ldquo;world&rdquo; fullname=first_name+&quot;.&quot;+last_name print(fullname) real_name = &quot; hellow world &quot; print(real_name) print(real_name.strip())#remove spaces print(real_name.lstrip())#remove left space print(real_name.rstrip())#remove right space number=250 code = &ldquo;The code is &ldquo;+str(number) print(code) #Say hi to everyone! print(&ldquo;Hellow world!&quot;.upper()) print(&ldquo;Hellow world!&quot;.lower()) print(&ldquo;Hellow world!&quot;.title()) varible = &ldquo;Goodmorning&rdquo; old = varible #Store the previous value #cause the variable will be reassigned. varible = &ldquo;Goodevening&rdquo; #Assign a new value to the existing variable. print(varible + &quot; world!&rdquo;)\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/Jovian/">Jovian</a></h1>
+            <h2 class="site-description">Jupiter&#39;s notes</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    <li id="i18n-switch">  
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                        <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                            
+                                
+                                
+                                    
+                                        
+                                    
+                                
+                                <option value="/Jovian/en/python_basic/" selected>中文</option>
+                            
+                                
+                                
+                                    
+                                
+                                <option value="/Jovian/en/" >English</option>
+                            
+                                
+                                
+                                    
+                                
+                                <option value="/Jovian/ja/" >日本語</option>
+                            
+                        </select>
+                    </li>
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/Jovian/en/python_basic/">Python_basic</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2026-03-17T15:24:19&#43;09:00'>Tuesday, March 17, 2026</time>
+                
+
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                    <time class="article-time--reading">
+                        
+                    </time>
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
+</div>
+
+</header>
+
+    
+
+    <section class="article-content">
+    
+    
+    <h3 id="section-1">Section 1
+</h3><p>print(&ldquo;Hellow world&rdquo;)
+message = &ldquo;Hellow world&rdquo;  #source myenv/bin/activate
+print(message)
+name = &ldquo;hellow world&rdquo;
+print(name.title())
+print(name.upper())
+print(name.lower())
+first_name = &ldquo;hellow&rdquo;
+last_name = &ldquo;world&rdquo;
+fullname=first_name+&quot;.&quot;+last_name
+print(fullname)
+real_name = &quot; hellow world &quot;
+print(real_name)
+print(real_name.strip())#remove spaces
+print(real_name.lstrip())#remove left space
+print(real_name.rstrip())#remove right space
+number=250
+code = &ldquo;The code is &ldquo;+str(number)
+print(code)
+#Say hi to everyone!
+print(&ldquo;Hellow world!&quot;.upper())
+print(&ldquo;Hellow world!&quot;.lower())
+print(&ldquo;Hellow world!&quot;.title())
+varible = &ldquo;Goodmorning&rdquo;
+old = varible #Store the previous value
+#cause the variable will be reassigned.
+varible = &ldquo;Goodevening&rdquo;
+#Assign a new value to the existing variable.
+print(varible + &quot; world!&rdquo;)</p>
+<h3 id="section-2">Section 2
+</h3><p>import math # Give the access to python&rsquo;s built- in math module, which provides mathematical fuction and constans that aren&rsquo;t available by default.
+result = math.sqrt(16)
+print(result)
+result = math.log2(8)
+print(result)
+import math
+a = 1
+b = 5
+c = 3
+delta = b**2 - 4<em>a</em>c
+result1 = (-b+math.sqrt(delta))/(2<em>a)
+result2 = (-b-math.sqrt(delta))/(2</em>a)
+print(result1, result2)</p>
+<h3 id="section-3">Section 3
+</h3><p>Text1 = &ldquo;Hellow world&rdquo;
+print(len(Text1)) # length of the string
+print(Text1[2]) # indexing starts from 0, so Text1[2] will give us the 3rd character of the string, which is &ldquo;l&rdquo;.
+print(Text1[-1]) # negative indexing starts from the end of the string, so Text1[-1] will give us the last character of the string, which is &ldquo;d&rdquo;.
+print(Text1[0:5]) # slicing the string from index 0 to 4, which will give us &ldquo;Hellow&rdquo;.
+print(Text1[:5]) # slicing the string from the beginning to index 4, which will also give us &ldquo;Hellow&rdquo;.
+print(Text1[6:]) # slicing the string from index 6 to the end, which will give us &ldquo;world&rdquo;.
+a1=True    #Boolean value representing true
+b1=False #Boolean value representing false
+c1= None #None is a special value in Python that represents the absence of a value or a null value. It is often used to indicate that a variable has no value or that a function does not return anything.
+print(type(a1)) # Output: &lt;class &lsquo;bool&rsquo;&gt;
+print(type(b1)) # Output: &lt;class &lsquo;bool&rsquo;&gt;
+print(type(c1)) # Output: &lt;class &lsquo;NoneType&rsquo;&gt;</p>
+<h3 id="section-4">Section 4
+</h3><p>#BMI = weight (kg) / height^2 (m^2)
+user_weight = float(input(&ldquo;Enter your weight in kilograms: &ldquo;))
+user_height = float(input(&ldquo;Enter your height in meters: &ldquo;))
+bmi = user_weight / (user_height ** 2)
+print(f&quot;Your BMI is: {bmi}&rdquo;) #f-string is a way to format strings in Python. It allows you to embed expressions inside string literals, using curly braces {}. The expressions are evaluated at runtime and their values are inserted into the string. In this case, {bmi} will be replaced with the value of the bmi variable when the string is printed.
+#Or use print(&ldquo;Your BMI is: &quot; + str(bmi)) #This will convert the bmi variable to a string and concatenate it with the rest of the message.</p>
+<h3 id="section-5">Section 5
+</h3><p>index1=int(input(&ldquo;Please enter your today&rsquo;s study time:&rdquo;))
+work_hard = int(input(&ldquo;Are you real working hard? (1 for yes, 0 for no): &ldquo;))
+if index1 &gt;=3 and work_hard == 1:
+print(&ldquo;Great job! Keep up the good work!&rdquo;)
+else:
+print(&ldquo;You need to work harder! Don&rsquo;t give up!&rdquo;)</p>
+<h1 id="different-way-to-exposition">Different way to exposition
+</h1><p>if index1 &gt;=3:
+if work_hard == 1: # “==”: Comparison Operators
+print(&ldquo;Great job! Keep up the good work!&rdquo;)
+elif work_hard == 0:
+print(&ldquo;You need to work harder! Don&rsquo;t give up!&rdquo;)
+if index1 &lt; 3:
+print(&ldquo;You need to work harder! Don&rsquo;t give up!&rdquo;)
+if work_hard != 1 and work_hard != 0: #“!=”: Not Equal To Operator
+print(&ldquo;Invalid input for work_hard. Please enter 1 for yes or 0 for no.&rdquo;)</p>
+<h3 id="section-6">Section 6
+</h3><p>mun_list=[1, 2, 3, 8, 0]
+list_01=mun_list
+print(list_01)
+print(max(list_01))#max() function returns the largest item in an iterable or the largest of two or more arguments.
+print(sorted(list_01)) #sorted() function returns a new sorted list from the items in an iterable. It does not modify the original list.
+list_01.extend((5,9))#extend() method is used to add all the items of an iterable (like a list, tuple, or set) to the end of the list. In this case, it will add the numbers 5 and 9 to the end of the list_0.
+list_01.remove(9) #remove() method is used to remove the first occurrence of a specified value from the list. In this case, it will remove the number 9 from the list_0.
+print(list_01)
+list_01.append((12,15,10,0.5,0.08)) #append() method is used to add a single item to the end of the list. In this case, it will add the tuple (12,15,10) to the end of the list_0.
+print(list_01)</p>
+<h3 id="section-7">Section 7
+</h3><p>slang_dict = {&ldquo;Jim&rdquo;:&ldquo;123456&rdquo;,
+&ldquo;Tom&rdquo;:&ldquo;654321&rdquo;,
+&ldquo;Lucy&rdquo;:&ldquo;111111&rdquo;}
+#A dictionary is a collection of key-value pairs, where each key is unique and maps to a specific value. In this case, the keys are tuples (e.g., (&ldquo;Jim&rdquo;, 1)) and the values are strings (e.g., &ldquo;123456&rdquo;). The dictionary allows you to store and retrieve values based on their corresponding keys.
+slang_dict[&ldquo;Wong&rdquo;] = &ldquo;222222&rdquo; #This line adds a new key-value pair to the slang_dict dictionary. The key is the tuple (&ldquo;Wong&rdquo;, 4) and the value is the string &ldquo;222222&rdquo;. After this line is executed, the slang_dict will contain the new entry for Wong with the corresponding value.
+del slang_dict[&ldquo;Tom&rdquo;] #del statement is used to delete an item from a dictionary. In this case, it will remove the key-value pair with the key (&ldquo;Tom&rdquo;, 2) from the slang_dict dictionary
+print(slang_dict)
+len(slang_dict) #len() function returns the number of items in a container. In this case, it will return the number of key-value pairs in the slang_dict dictionary, which is 4 after adding the new entry for Wong.
+print(len(slang_dict))
+name = input(&ldquo;Please enter the name: &ldquo;)
+if name in slang_dict:
+print(f&quot;The number of {name} is: {slang_dict[name]}&rdquo;)
+else:
+print(f&quot;The {name} does not exist in the dictionary.&rdquo;)
+temperature_dict ={&ldquo;001&rdquo;:36.3,&ldquo;002&rdquo;:37.2,&ldquo;003&rdquo;:36.8,&ldquo;004&rdquo;:38.5}
+#A dictionary is a collection of key-value pairs, where each key is unique and maps to a specific value. In this case, the keys are strings (e.g., &ldquo;001&rdquo;) and the values are floating-point numbers (e.g., 36.3). The dictionary allows you to store and retrieve values based on their corresponding keys.
+print(&ldquo;The temperature of employee 002 is:&rdquo;, temperature_dict[&ldquo;002&rdquo;]) #This line retrieves the value associated with the key &ldquo;002&rdquo; from the temperature_dict dictionary. In this case, it will return the value 37.2, which is the temperature corresponding to the key &ldquo;002&rdquo;. The output will be 37.2
+temperature_dict.keys()#keys() method is used to return a view object that displays a list of all the keys in the dictionary. In this case, it will return a view object containing the keys &ldquo;001&rdquo;, &ldquo;002&rdquo;, &ldquo;003&rdquo;, and &ldquo;004&rdquo;. The output will be dict_keys([&lsquo;001&rsquo;, &lsquo;002&rsquo;, &lsquo;003&rsquo;, &lsquo;004&rsquo;])
+print(&ldquo;The employee IDs are:&quot;,list(temperature_dict.keys()))
+temperature_dict.values() #values() method is used to return a view object that displays a list of all the values in the dictionary. In this case, it will return a view object containing the temperatures corresponding to the keys &ldquo;001&rdquo;, &ldquo;002&rdquo;, &ldquo;003&rdquo;, and &ldquo;004&rdquo;. The output will be dict_values([36.3, 37.2, 36.8, 38.5])
+print(list(temperature_dict.values()))
+temperature_dict.items() #items() method is used to return a view object that displays a list
+print(list(temperature_dict.items()))
+for key, value in temperature_dict.items(): #items() method is used to return a view object that displays a list of key-value pairs in the dictionary. In this case, it will return a view object containing the key-value pairs (&ldquo;001&rdquo;, 36.3), (&ldquo;002&rdquo;, 37.2), (&ldquo;003&rdquo;, 36.8), and (&ldquo;004&rdquo;, 38.5). The for loop iterates through each key-value pair in the dictionary, allowing you to access both the key and the value in each iteration.
+if value &gt;= 38:
+print(key+&rdquo; has a fever!&rdquo;)</p>
+<h3 id="section-8">Section 8
+</h3><p>total = 0
+for num in range(1, 101): #range() function is used to generate a sequence of numbers. In this case, it will generate numbers from 1 to 10 (inclusive). The for loop iterates through each number in the generated sequence, allowing you to perform operations on each number.
+total += num #This line adds the current number (num) to the total variable. The += operator is a shorthand for total = total + num, which updates the value of total by adding num to it. After the loop completes, total will contain the sum of all numbers from 1 to 10.
+print(total)
+list = [&ldquo;1&rdquo;,&ldquo;2&rdquo;,&ldquo;3&rdquo;,&ldquo;4&rdquo;,&ldquo;5&rdquo;]
+for character in list:
+print(character)
+#or
+for i in range(len(list)): # len() return the number of items in the list; range(len()) generate the sequence.
+print(i,list[i])
+list2 = [&ldquo;1&rdquo;,&ldquo;2&rdquo;,&ldquo;3&rdquo;,&ldquo;4&rdquo;,&ldquo;5&rdquo;,&ldquo;6&rdquo;,&ldquo;7&rdquo;,&ldquo;8&rdquo;,&ldquo;9&rdquo;,&ldquo;10&rdquo;,&ldquo;11&rdquo;,&ldquo;12&rdquo;,&ldquo;13&rdquo;,&ldquo;14&rdquo;,&ldquo;15&rdquo;]
+i=0
+while i &lt; len(list2): # If the condition is true, the code block inside the while loop will be executed.
+print(i,list2[i])
+i += 1 #i=i+1  #Every time the loop runs, it will increment the value of i by 1, which allows the loop to eventually terminate when i is no longer less than the length of list2.</p>
+<h3 id="section-9">Section 9
+</h3><p>total = 0
+count = 0
+user_input = input(&ldquo;Enter a number (or &lsquo;q&rsquo; to quit): &ldquo;)
+while user_input!= &ldquo;q&rdquo; and count&lt;10: # &ldquo;！=&rdquo; is the not equal to operator.
+num = float(user_input) # Change the user input from string to float.
+total += num # total = total + num
+count += 1 # count = count + 1
+user_input = input(&ldquo;Enter a number (or &lsquo;q&rsquo; to quit): &ldquo;)
+if count == 0: # &ldquo;==&rdquo; is the equal to operator.
+result = 0
+else:
+result = total / count
+print(f&quot;The result is:{result:2f}&rdquo;) #f-string is the quote allows you to embed variables inside the string.
+#{} Inserts the value of the variable result into the string.
+#:2f formats the result to 2 decimal places.</p>
+<p>Section 10
+def calculate_bmi(weight, height):
+BMI = weight / (height ** 2)
+if BMI &lt;= 18.5:
+category = &ldquo;Underweight&rdquo;
+elif BMI &lt;= 25:
+category = &ldquo;Normal weight&rdquo;
+elif BMI &lt;= 30:
+category = &ldquo;Overweight&rdquo;
+else:
+category = &ldquo;Obesity&rdquo;
+print(f&quot;Your BMI is: {BMI:.2f}, which is categorized as {category}.&rdquo;) #f-string is a way to format strings in Python. It allows you to embed expressions inside string literals, using curly braces {}. The expressions are evaluated at runtime and their values are inserted into the string. In this case, {BMI:.2f} will be replaced with the value of the BMI variable formatted to 2 decimal places, and {category} will be replaced with the value of the category variable when the string is printed.
+return BMI, category #return statement is used to exit a function and return a value to
+category_1 = calculate_bmi(70, 1.75) #This line calls the calculate_bmi function with the arguments 70 (weight in kilograms) and 1.75 (height in meters). The function will calculate the BMI based on the provided weight and height, determine the category of BMI, and print the result. The return statement in the function will return the calculated BMI and its category as a tuple, which will be stored in the variable category_1.
+class cat:
+def <strong>init</strong>(self, name, age, color):
+self.name = name
+self.age = age
+self.color = color
+def speak(self):
+return self.words
+cat1 = cat(&ldquo;A&rdquo;,6,&ldquo;black&rdquo;)
+cat1.words = &ldquo;Meow&rdquo;
+cat2 = cat(&ldquo;B&rdquo;,5,&ldquo;white&rdquo;)
+cat2.words = &ldquo;Purrr~&rdquo;
+print(f&rdquo;{cat1.speak()}, my name is {cat1.name}, {cat1.age} years old, color is {cat1.color}&rdquo;) #This line attempts to print the name, age, and color attributes of the cat tuple. However, since cat is a tuple and not an object with attributes, this line will raise an AttributeError. To access the elements of the tuple, you should use indexing instead, like this: print(cat[0], cat[1], cat[2]) which will print the name, age, and color of the cat respectively.
+print(f&rdquo;{cat2.speak()}, my name is {cat2.name}, {cat2.age} years old, color is {cat2.color}&rdquo;)
+class student:
+def <strong>init</strong>(self, name, student_id):
+self.name = name
+self.student_id = student_id
+self.grade = {&ldquo;Math&rdquo;: 0, &ldquo;English&rdquo;: 0, &ldquo;Science&rdquo;: 0}
+def set_grade(self, course, grade):
+if course in self.grade:
+self.grade[course] = grade
+else:
+print(f&quot;Course {course} is not available.&rdquo;)
+def print_grands(self):
+print(f&quot;Student Name: {self.name} (id: {self.student_id})&rsquo;s grades are:&rdquo;)
+for course, grade in self.grade.items():
+print(f&rdquo;{course}: {grade}&rdquo;)
+Alice = student(&ldquo;Alice&rdquo;, &ldquo;S001&rdquo;)
+Alice.set_grade(&ldquo;Math&rdquo;, 85)
+Alice.set_grade(&ldquo;English&rdquo;, 90)
+Alice.set_grade(&ldquo;Science&rdquo;, 78)
+Alice.print_grands()
+Bob = student(&ldquo;Bob&rdquo;, &ldquo;S002&rdquo;)
+Bob.set_grade(&ldquo;Math&rdquo;, 92)
+Bob.set_grade(&ldquo;English&rdquo;, 88)
+Bob.set_grade(&ldquo;Science&rdquo;, 95)
+Bob.print_grands()
+print(Alice.name)
+print(Bob.student_id)
+print(Alice.grade)</p>
+<h3 id="section-11">Section 11
+</h3><p>class Employee:
+def <strong>init</strong>(self,name,id):
+self.name = name
+self.id = id
+def print_info(self):
+print(f&quot;Name of the employee is {self.name}, and the id is {self.id}.&rdquo;)
+class FulltimeEmployee(Employee):
+def <strong>init</strong>(self, name, id, month_salary):
+super().<strong>init</strong>(name, id) # super() function  inherits the name and id form the Employee class.
+self.month_salary = month_salary
+def calculate_monthly_pay(self):
+return self.month_salary<br>
+class PartTimeEmployee(Employee):
+def <strong>init</strong>(self,name,id, daily_salary, work_days):
+super().<strong>init</strong>(name,id)
+self.daily_salary = daily_salary
+self.work_days = work_days
+def calculate_monthly_pay(self):
+return self .daily_salary * self.work_days</p>
+<p>Wong = FulltimeEmployee(&ldquo;Wong&rdquo;, &ldquo;001&rdquo;, 3000)
+White = PartTimeEmployee(&ldquo;White&rdquo;, &ldquo;002&rdquo;, 150, 20)
+print(f&rdquo;{Wong.name}&rsquo;s monthly pay is: {Wong.calculate_monthly_pay()}&rdquo;)
+print(f&quot;{White.name}&rsquo;s monthly pay is: {White.calculate_monthly_pay()}&quot;)</p>
+<h3 id="section-12">Section 12
+</h3><p>f = open(&quot;/home/jupiter/jiming/notes/programming/python/test.txt&quot;,&ldquo;r&rdquo;, encoding=&ldquo;utf-8&rdquo;)</p>
+<h1 id="r-is-only-reading-w-is-only-writing">&ldquo;r&rdquo; is only reading; &ldquo;w&rdquo; is only writing.
+</h1><p>print(f.read())</p>
+<p>f = open(&quot;/home/jupiter/jiming/notes/programming/python/test.txt&quot;,&ldquo;r&rdquo;, encoding=&ldquo;utf-8&rdquo;)
+line = f.readline()
+while line != &ldquo;&rdquo;:
+print(line)
+line = f.readline()
+f = open(&quot;/home/jupiter/jiming/notes/programming/python/test.txt&quot;,&ldquo;r&rdquo;, encoding=&ldquo;utf-8&rdquo;)
+print(f.readlines())</p>
+<p>f = open(&quot;/home/jupiter/jiming/notes/programming/python/test.txt&quot;,&ldquo;r&rdquo;, encoding=&ldquo;utf-8&rdquo;)
+lines = f.readlines()
+for line in lines:
+print(line)
+with open(&quot;/home/jupiter/jiming/notes/programming/python/test.txt&quot;) as f:
+#with open(&quot;&quot;)as f:
+print(f.read())</p>
+<h3 id="section-13">Section 13
+</h3><p>with open(&quot;/home/jupiter/jiming/notes/programming/python/test2.txt&quot;,&ldquo;w&rdquo;, encoding=&ldquo;utf-8&rdquo;) as f:
+f.write(&ldquo;Four score and seven years ago our fathers brought forth on this continent,\n&rdquo;)
+f.write(&ldquo;a new nation, \n&rdquo;)
+f.write(&ldquo;conceived in Liberty, \n&rdquo;)
+f.write(&ldquo;and dedicated to the proposition that all men are created equal.\n&rdquo;)
+with open(&quot;/home/jupiter/jiming/notes/programming/python/test2.txt&quot;,&ldquo;a&rdquo;, encoding=&ldquo;utf-8&rdquo;) as f:
+f.write(&ldquo;Now we are appending to the file.\n&rdquo;)</p>
+<h3 id="section-14">Section 14
+</h3><p>try:
+user_weight = float(input(&ldquo;Enter your weight in kilograms: &ldquo;))
+user_height = float(input(&ldquo;Enter your height in meters: &ldquo;))
+user_BMI = user_weight/user_height ** 2
+except ValueError:
+print(&ldquo;Invalid input. Please enter numeric values for weight and height.&rdquo;)
+except ZeroDivisionError:
+print(&ldquo;Height cannot be zero. Please enter a valid height.&rdquo;)
+except:
+print(&ldquo;An unexpected error occurred. Please try again.&rdquo;)
+else:
+print(f&quot;Your BMI is: {user_BMI:.2f}&rdquo;)
+finally:
+print(&ldquo;Thank you for using the BMI calculator.&rdquo;)</p>
+
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+        <div class="disqus-container">
+    
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 Jovian
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/Jovian\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/Jovian/ts/main.48e6d9e5a3f56283ead8373fdd42e7c575d5efb07a1a3f57acb2ae2e0b9e78b7.js" defer></script>
+
+
+    </body>
+</html>

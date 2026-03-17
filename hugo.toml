@@ -1,36 +1,52 @@
 baseURL = "https://jupiter263.github.io/Jovian/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 title = "Jovian"
 hasCJKLanguage = true
 [languages]
-  [languages.zh-cn]
+[languages.zh-cn]
     languageName = "中文"
     title = "Jovian"
     weight = 1
-  [languages.en]
+    contentDir = "content"
+    [languages.zh-cn.params]
+        mainSections = ["post"]
+
+[languages.en]
     languageName = "English"
     title = "Jovian"
     weight = 2
-  [languages.ja]
+    contentDir = "content/en"
+    [languages.en.params]
+        mainSections = ["post"]
+
+[languages.ja]
     languageName = "日本語"
     title = "Jovian"
     weight = 3
+    contentDir = "content/ja"
     hasCJKLanguage = true
+    [languages.ja.params]
+        mainSections = ["post"]
 
 [permalinks]
-  post = "/p/:slug/"
+    [languages.en.permalinks]
+    post = "/p/:slug/"
+
+    [languages.zh-cn.permalinks]
+    post = "/p/:slug/"
+
+    [languages.ja.permalinks]
+    post = "/p/:slug/"
 
 [params]
-  mainSections = ["post"]
   featuredImageField = "image"
   rssFullContent = true
 
   [params.sidebar]
     emoji = "🪐"
     subtitle = "Jupiter's notes"
-    compact = false
 
   [params.article]
     toc = true

@@ -6,7 +6,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/categories/"
+                href="http://localhost:1313/Jovian/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -23,7 +23,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/"
+                href="http://localhost:1313/Jovian/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -40,7 +40,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/tags/"
+                href="http://localhost:1313/Jovian/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
