@@ -15,6 +15,6 @@ def last_lamp_of_faith(self):
             burn_the_last_embers()
             leave_the_final_will()
         finally:
-            print("O boundless heaven,\n
+            print("O boundless heaven,\n"
                   "why have you been so unkind to me?")
 ```
