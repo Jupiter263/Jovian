@@ -2,7 +2,7 @@
 <html lang="ja" dir="ltr">
     <head>
 	<meta name="generator" content="Hugo 0.158.0"><script src="/Jovian/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Jovian/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\"If I learn the truth in the morning, I can die content in the evening.\"">
 <title>Jovian</title>
 
 
@@ -14,13 +14,264 @@
 
 
 <link rel="stylesheet" href="/Jovian/scss/style.min.225c7ddaf344025c82047fd93ff158cf4230145b2576e49e31553ebce465a82c.css"><meta property='og:title' content="Jovian">
-<meta property='og:description' content="">
+<meta property='og:description' content="\"If I learn the truth in the morning, I can die content in the evening.\"">
 <meta property='og:url' content='http://localhost:1313/Jovian/ja/'>
 <meta property='og:site_name' content='Jovian'>
 <meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-03-27T13:37:14&#43;09:00 '/>
 <meta name="twitter:title" content="Jovian">
-<meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/Jovian/ja/index.xml"><link rel="icon" href="/Jovian/favicon.ico" type="image/x-icon">
+<meta name="twitter:description" content="\"If I learn the truth in the morning, I can die content in the evening.\""><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/Jovian/ja/index.xml"><link rel="icon" href="/Jovian/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
 
+<style>
+ 
+:root,
+:root[data-scheme=dark] {
+  --card-background: transparent !important;
+}
+
+ 
+.sidebar header a {
+  font-size: 2.8rem !important;
+  font-family: 'Cinzel', serif !important;
+  letter-spacing: 0.1em;
+  background: linear-gradient(135deg, #b0b8c1, #e8edf2, #b0b8c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: filter 0.3s ease !important;
+}
+
+.sidebar header a:hover {
+  filter: brightness(1.5) drop-shadow(0 0 8px rgba(220, 230, 240, 0.9)) !important;
+}
+
+ 
+.site-description {
+  font-family: 'Cinzel', serif !important;
+  font-size: 1.5rem !important;
+  letter-spacing: 0.1em !important;
+  color: rgba(200, 210, 220, 0.7) !important;
+  margin-top: 4px !important;
+  line-height: 1.6 !important;
+  margin-left: -20px !important;
+}
+
+ 
+.article-title, h1.article-title a {
+  font-family: 'Cinzel', serif !important;
+  letter-spacing: 0.05em;
+}
+
+ 
+.main-container {
+  padding-left: 0 !important;
+}
+
+ 
+.left-sidebar {
+  background: rgba(10, 10, 20, 0.2) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  margin-left: -50px !important;
+  padding-left: 50px !important;
+  min-height: 100vh !important;
+}
+
+ 
+.article-list article,
+.article-list--tile article,
+article.article {
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+}
+
+ 
+.right-sidebar .widget,
+.right-sidebar section {
+  background: rgba(255, 255, 255, 0.04) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  padding: 15px !important;
+}
+
+ 
+.widget--archives .archives-year,
+.widget--archives .archive-year-header {
+  background: rgba(255, 255, 255, 0.12) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 10px !important;
+  padding: 10px 15px !important;
+  margin-top: 8px !important;
+}
+
+ 
+.archives-group,
+.article-list--compact article,
+.article-list--compact .article-details {
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  padding: 10px 15px !important;
+  margin-bottom: 8px !important;
+}
+
+.article-list--compact {
+  background: transparent !important;
+}
+
+.article-list--compact .article-details,
+.article-list--compact article .article-details {
+  background-color: transparent !important;
+}
+
+ 
+.article-page .article-header,
+.article-page .article-content,
+.article-page .article-footer {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 16px !important;
+  padding: 30px !important;
+  margin-bottom: 16px !important;
+}
+
+ 
+::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(180, 200, 220, 0.3) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(180, 200, 220, 0.6) !important;
+}
+
+ 
+.site-footer {
+  display: none !important;
+}
+
+ 
+#i18n-switch select {
+  display: none !important;
+}
+
+ 
+#i18n-switch {
+  position: relative !important;
+}
+
+.lang-btn {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  font-size: 1.3rem;
+}
+
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 110%;
+  top: auto;
+  background: rgba(255, 255, 255, 0.20);
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  z-index: 999;
+  min-width: 80px;
+}
+
+.lang-dropdown.open {
+  display: block;
+}
+
+.lang-option {
+  display: block;
+  padding: 6px 14px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lang-option:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.highlight,
+pre,
+code {
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  border-radius: 8px !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const switcher = document.getElementById('i18n-switch');
+  if (!switcher) return;
+  const select = switcher.querySelector('select');
+  if (!select) return;
+
+  const options = Array.from(select.options);
+  const current = options.find(o => o.selected) || options[0];
+
+  const btn = document.createElement('span');
+  btn.className = 'lang-btn';
+  btn.textContent = current.text;
+
+  const dropdown = document.createElement('div');
+  dropdown.className = 'lang-dropdown';
+
+  options.forEach(opt => {
+    const item = document.createElement('span');
+    item.className = 'lang-option';
+    item.textContent = opt.text;
+    item.addEventListener('click', () => {
+      window.location.href = opt.value;
+    });
+    dropdown.appendChild(item);
+  });
+
+  switcher.appendChild(btn);
+  switcher.appendChild(dropdown);
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dropdown.classList.toggle('open');
+  });
+
+  document.addEventListener('click', () => {
+    dropdown.classList.remove('open');
+  });
+});
+</script>
     </head>
     <body class="">
     <script>
@@ -53,11 +304,22 @@
     </button>
 
     <header>
+        <figure class="site-avatar">
+                <a href="/Jovian/ja/">
+                    <img src="/Jovian/img/avatar.png" 
+                        width="300"
+                        height="300"
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
         
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/Jovian/ja/">Jovian</a></h1>
-            <h2 class="site-description"></h2>
+            <h2 class="site-description">&#34;If I learn the truth in the morning, I can die content in the evening.&#34;</h2>
         </div>
     </header><ol class="menu" id="main-menu">
         

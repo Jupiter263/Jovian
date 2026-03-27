@@ -16,7 +16,7 @@ hasCJKLanguage = true
       featuredImageField = "image"
       rssFullContent = true
       [languages.zh-cn.params.sidebar]
-        emoji = "🪐"
+        
       [languages.zh-cn.params.article]
         toc = true
       [languages.zh-cn.params.widgets]
@@ -35,7 +35,7 @@ hasCJKLanguage = true
       featuredImageField = "image"
       rssFullContent = true
       [languages.en.params.sidebar]
-        emoji = "🪐"
+        
       [languages.en.params.article]
         toc = true
       [languages.en.params.widgets]
@@ -55,7 +55,7 @@ hasCJKLanguage = true
       featuredImageField = "image"
       rssFullContent = true
       [languages.ja.params.sidebar]
-        emoji = "🪐"
+        
       [languages.ja.params.article]
         toc = true
       [languages.ja.params.widgets]
@@ -70,3 +70,7 @@ hasCJKLanguage = true
 
 [params]
   favicon = "/favicon.ico"
+
+[params.sidebar]
+  avatar = "img/avatar.png"
+  subtitle = "\"If I learn the truth in the morning, I can die content in the evening.\""
