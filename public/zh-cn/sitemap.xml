@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Jovian/zh-cn/en/</loc>
-    <lastmod>2026-03-17T15:24:19+09:00</lastmod>
+    <loc>http://localhost:1313/Jovian/zh-cn/ja/</loc>
+    <lastmod>2026-03-27T13:37:14+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Jovian/zh-cn/</loc>
-    <lastmod>2026-03-17T15:24:19+09:00</lastmod>
+    <lastmod>2026-03-27T13:37:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -23,11 +23,14 @@
                 href="http://localhost:1313/Jovian/zh-cn/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Jovian/zh-cn/en/post/python_basic/</loc>
-    <lastmod>2026-03-17T15:24:19+09:00</lastmod>
+    <loc>http://localhost:1313/Jovian/zh-cn/ja/post/answer_cn_jp_relations/</loc>
+    <lastmod>2026-03-27T13:37:14+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Jovian/zh-cn/post/</loc>
-    <lastmod>2026-03-17T14:20:51+09:00</lastmod>
+    <loc>http://localhost:1313/Jovian/zh-cn/en/</loc>
+    <lastmod>2026-03-18T11:50:45+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Jovian/zh-cn/en/post/last_lamp_of_faith/</loc>
+    <lastmod>2026-03-18T11:50:45+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Jovian/zh-cn/post/marginalia01-twenty-years-crisis/</loc>
     <lastmod>2026-03-17T14:20:51+09:00</lastmod>
@@ -55,9 +58,6 @@
                 hreflang="zh-cn"
                 href="http://localhost:1313/Jovian/zh-cn/page/archives/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/Jovian/zh-cn/ja/</loc>
-    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Jovian/zh-cn/page/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
