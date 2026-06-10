@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Ens on Jovian</title>
-        <link>http://localhost:1313/Jovian/zh-cn/en/</link>
+        <link>https://jupiter263.github.io/Jovian/zh-cn/en/</link>
         <description>Recent content in Ens on Jovian</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 18 Mar 2026 11:50:45 +0900</lastBuildDate><atom:link href="http://localhost:1313/Jovian/zh-cn/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 18 Mar 2026 11:50:45 +0900</lastBuildDate><atom:link href="https://jupiter263.github.io/Jovian/zh-cn/en/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Last_lamp_of_faith</title>
-            <link>http://localhost:1313/Jovian/zh-cn/en/post/last_lamp_of_faith/</link>
+            <link>https://jupiter263.github.io/Jovian/zh-cn/en/post/last_lamp_of_faith/</link>
             <pubDate>Wed, 18 Mar 2026 11:50:45 +0900</pubDate>
-            <guid>http://localhost:1313/Jovian/zh-cn/en/post/last_lamp_of_faith/</guid>
+            <guid>https://jupiter263.github.io/Jovian/zh-cn/en/post/last_lamp_of_faith/</guid>
             <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;last_lamp_of_faith&lt;/span&gt;(self):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;breath_remains:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            fulfill_the_oath()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            walk_the_unmapped_path()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            hold_the_falling_order()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt; Heaven&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s_Will:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            burn_the_last_embers()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            leave_the_final_will()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;finally&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;O boundless heaven,&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;why have you been so unkind to me?&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item><item>
             <title>Archives</title>
-            <link>http://localhost:1313/Jovian/zh-cn/en/page/archives/</link>
+            <link>https://jupiter263.github.io/Jovian/zh-cn/en/page/archives/</link>
             <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/Jovian/zh-cn/en/page/archives/</guid>
+            <guid>https://jupiter263.github.io/Jovian/zh-cn/en/page/archives/</guid>
             <description></description>
         </item></channel>
 </rss>

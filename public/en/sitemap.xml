@@ -2,95 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Jovian/en/</loc>
+    <loc>https://jupiter263.github.io/Jovian/en/</loc>
     <lastmod>2026-03-18T11:50:45+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/"
+                href="https://jupiter263.github.io/Jovian/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/"
+                href="https://jupiter263.github.io/Jovian/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/"
+                href="https://jupiter263.github.io/Jovian/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/post/last_lamp_of_faith/</loc>
+    <loc>https://jupiter263.github.io/Jovian/en/post/last_lamp_of_faith/</loc>
     <lastmod>2026-03-18T11:50:45+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/page/archives/</loc>
+    <loc>https://jupiter263.github.io/Jovian/en/page/archives/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/page/archives/"
+                href="https://jupiter263.github.io/Jovian/zh-cn/page/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/page/archives/"
+                href="https://jupiter263.github.io/Jovian/ja/page/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/page/archives/"
+                href="https://jupiter263.github.io/Jovian/en/page/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/page/</loc>
+    <loc>https://jupiter263.github.io/Jovian/en/page/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/page/"
+                href="https://jupiter263.github.io/Jovian/zh-cn/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/page/"
+                href="https://jupiter263.github.io/Jovian/ja/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/page/"
+                href="https://jupiter263.github.io/Jovian/en/page/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/categories/</loc>
+    <loc>https://jupiter263.github.io/Jovian/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/categories/"
+                href="https://jupiter263.github.io/Jovian/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/categories/"
+                href="https://jupiter263.github.io/Jovian/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/categories/"
+                href="https://jupiter263.github.io/Jovian/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Jovian/en/tags/</loc>
+    <loc>https://jupiter263.github.io/Jovian/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/Jovian/zh-cn/tags/"
+                href="https://jupiter263.github.io/Jovian/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/Jovian/ja/tags/"
+                href="https://jupiter263.github.io/Jovian/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/Jovian/en/tags/"
+                href="https://jupiter263.github.io/Jovian/en/tags/"
                 />
   </url>
 </urlset>
